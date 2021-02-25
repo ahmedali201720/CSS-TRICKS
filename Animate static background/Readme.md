@@ -5,7 +5,7 @@
 
   @keyframes animateBackground {
     100% {
-        background-position: 0px -3000px;
+        background-position: 0px -4000px; // custom values
     }
   }
 
