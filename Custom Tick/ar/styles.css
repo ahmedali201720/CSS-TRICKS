@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+body {
+    margin: 0;
+}
