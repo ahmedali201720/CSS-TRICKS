@@ -1,0 +1,17 @@
+plugin parameters :
+
+effect :	string	"scroll"	other effects: "typography", "fade", "slide-up", "slide-down", "slide-left", "slide-right"
+direction:	string	"ltr"	        News ticker direction property. other value : "rtl"
+fontSize :	string	"default"	News ticker font size property. like "16px", "18px"...
+themeColor:	string	"default"	Default CSS colors. If you want to change "#f65454" ...
+background:	string	"default"	Default CSS background. if you want to change "#FF00FF", "url(img/background-pattern-example.png)"
+heigh:t	        integer	40	        News ticker height propery.
+borderWidth:	integer	1	        News ticker border width propery.
+radius:	        integer	2	        News ticker border radius propery.
+play:	        boolean	true	        News ticker auto play property. set the false stoping news ticker.
+delayTimer:	integer	4000	        Wait for transition for all other effects except "scroll" effect
+scrollSpeed:	integer	2	        Scroll effect slide speed. example (1 slowly)..1,2,3,4,5,6,......(more fast)
+stopOnHover:	boolean	true	        Stop the news ticker on mouse hover event.
+position:	string	"auto"	        Ticker position. Values : "fixed-top", "fixed-bottom"
+zIndex:	        integer	99999	        Ticker z-index parameter. Using with position.
+source:	        object	"html"	        News ticker other source propery (more)
